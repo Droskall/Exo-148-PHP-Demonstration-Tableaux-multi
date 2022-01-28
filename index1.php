@@ -37,11 +37,17 @@ echo '<br><br>';
 echo 'Remplacer des valeurs du tableau. Pomme devient Mangue, Cerise devient Letchis et Banane devient Fruit de la Passion';
 echo '<br>';
 echo 'Fruits[avant]<br>';
+
 print_r($fruits);
+
 echo '<br>';
+
 $fruits[0] = 'Mangue';
 $fruits[1] = 'Letchis';
 $fruits[2] = 'Fruit de la passion';
+
 echo 'Fruits[après]<br>';
+
 print_r($fruits);
+
 echo '<br><br>';
